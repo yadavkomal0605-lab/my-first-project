@@ -86,9 +86,34 @@ nav ul li a:hover{
     border-radius:30px;
     transition:.3s;
 }
-
-.btn:hover{
+    .btn:hover{
     background:#2563eb;
+}
+
+/* 👇 YAHAN PASTE KARO */
+
+.buttons{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.btn2{
+    background:transparent;
+    border:2px solid #38bdf8;
+}
+
+.btn2:hover{
+    background:#38bdf8;
+    color:white;
+}
+
+/* Sections */
+
+section{
+    padding:90px 10%;
+}
 }
 
 /* Sections */
