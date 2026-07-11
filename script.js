@@ -107,4 +107,19 @@ employeeForm.addEventListener("submit", function (e) {
 // Initial Load
 // ============================
 
+// ============================
+// Initial Load
+// ============================
+
 displayEmployees();
+// ============================
+// Display Employees
+// ============================
+
+
+// ============================
+// Dashboard
+// ============================
+
+function updateDashboard() {
+
