@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll Management</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="payroll.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+<h1>💰 Payroll Management</h1>
+
+<a href="index.html">← Back to Dashboard</a>
+
+</header>
+
+<div class="payroll-container">
+
+<h2>Calculate Salary</h2>
+
+<form id="payrollForm">
+
+<input type="text" placeholder="Employee Name" id="empName" required>
+
+<input type="text" placeholder="Employee ID" id="empId" required>
+
+<select id="department">
+
+<option>VMC</option>
+<option>CNC</option>
+<option>Quality</option>
+<option>Production</option>
+<option>Design</option>
+
+</select>
+
+<input type="number" placeholder="Basic Salary" id="basic">
+
+<input type="number" placeholder="HRA" id="hra">
+
+<input type="number" placeholder="Bonus" id="bonus">
+
+<input type="number" placeholder="Overtime" id="overtime">
+
+<input type="number" placeholder="PF" id="pf">
+
+<input type="number" placeholder="ESI" id="esi">
+
+<button type="submit">
+
+Calculate Salary
+
+</button>
+
+</form>
+
+<div id="salaryResult">
+
+</div>
+
+</div>
+
+<script src="payroll.js"></script>
+
+</body>
+
+</html>
