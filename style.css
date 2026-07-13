@@ -138,3 +138,148 @@ header{
 .form-box button:hover{
     background:#0284c7;
 }
+
+
+
+/* ==========================
+   Employee Management System
+   ========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:#fff;
+}
+
+/* Header */
+
+header{
+    width:100%;
+    background:#1e293b;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo i{
+    font-size:28px;
+    color:#38bdf8;
+}
+
+.logo h2{
+    font-size:28px;
+}
+
+#themeBtn{
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+    background:#38bdf8;
+    color:#fff;
+    font-size:18px;
+}
+
+/* Dashboard */
+
+.dashboard{
+    width:90%;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card i{
+    font-size:35px;
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.card h3{
+    margin:10px 0;
+}
+
+.card h2{
+    color:#38bdf8;
+    font-size:35px;
+}
+
+/* Main Container */
+
+.container{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:350px 1fr;
+    gap:30px;
+}
+
+/* Form */
+
+.form-box{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+}
+
+.form-box h2{
+    text-align:center;
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.form-box input,
+.form-box select{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:8px;
+    font-size:15px;
+}
+
+.form-box button{
+    width:100%;
+    padding:12px;
+    background:#38bdf8;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.form-box button:hover{
+    background:#0284c7;
+}
+
+
